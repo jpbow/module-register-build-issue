@@ -4,6 +4,8 @@ Minimal reproduction for [#7894](https://github.com/zeit/next.js/issues/7894)
 
 Weirdly, the build will succeed if there are only two pages that import `firebase/firestore`, but fails on three or more.
 
+Environment: macOS 10.13.6, Node v10.15.0, Yarn 1.16.0
+
 ## Steps
 
 1. Clone repository
